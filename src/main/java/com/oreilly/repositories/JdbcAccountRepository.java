@@ -16,7 +16,9 @@ import java.util.List;
 @Repository
 @Profile({"prod", "test"})
 public class JdbcAccountRepository implements AccountRepository {
+
     private JdbcTemplate template;
+
     private static long nextId = 4;
 
     @Autowired

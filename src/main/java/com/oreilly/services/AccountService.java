@@ -10,7 +10,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 import java.math.BigDecimal;
 
-@Service @Transactional
+@Service
+@Transactional
 @Profile("test")
 public class AccountService {
 
