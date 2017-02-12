@@ -11,6 +11,7 @@ public class LearnSpringAndSpringBoot2ApplicationTests {
 
 	@Test
 	public void contextLoads() {
+
 	}
 
 }
