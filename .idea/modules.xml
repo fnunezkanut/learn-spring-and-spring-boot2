@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/learn-spring-and-spring-boot2.iml" filepath="$PROJECT_DIR$/.idea/learn-spring-and-spring-boot2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/learn-spring-and-spring-boot2.iml" filepath="$PROJECT_DIR$/.idea/modules/learn-spring-and-spring-boot2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/learn-spring-and-spring-boot2_main.iml" filepath="$PROJECT_DIR$/.idea/modules/learn-spring-and-spring-boot2_main.iml" group="learn-spring-and-spring-boot2" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/learn-spring-and-spring-boot2_test.iml" filepath="$PROJECT_DIR$/.idea/modules/learn-spring-and-spring-boot2_test.iml" group="learn-spring-and-spring-boot2" />
     </modules>
   </component>
 </project>
