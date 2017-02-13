@@ -66,10 +66,10 @@ public class JdbcAccountRepository implements AccountRepository {
     }
 
     private class AccountMapper implements RowMapper<Account> {
+
         @Override
         public Account mapRow(ResultSet resultSet, int i) throws SQLException {
-            return new Account(resultSet.getLong("id"),
-                    resultSet.getBigDecimal("balance"));
+            return new Account(resultSet.getLong("id"), resultSet.getBigDecimal("balance"));
         }
     }
 }

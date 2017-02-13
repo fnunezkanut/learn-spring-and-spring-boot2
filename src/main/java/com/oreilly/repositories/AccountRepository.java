@@ -6,6 +6,7 @@ import java.math.BigDecimal;
 import java.util.List;
 
 public interface AccountRepository {
+
     List<Account> getAccounts();
 
     Account getAccount(Long id);
